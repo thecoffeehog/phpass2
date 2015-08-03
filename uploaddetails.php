@@ -30,7 +30,7 @@ VALUES ('$fname','$lname', '$pnumber', '$altpnumber', '$email' , '$altemail' , '
 if($conn->query($sql) === TRUE) {
 	echo "Your details added scuccessfully! Check all details ";
 	//TODO: Add all details link here
-	echo "<a href='/projects/phpass2/cdetailsbyphonenumber.html'>here</a>";
+	echo "<a href='/learningphp/phpass2/cdetailsbyphonenumber.html'>here</a>";
 }
 
 ?>
